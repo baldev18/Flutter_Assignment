@@ -1,0 +1,57 @@
+1. Explain what a RESTful API is and its importance in mobile applications.
+ What is a RESTful API?
+A RESTful API is a way for mobile apps and websites to communicate with a server over the internet.
+It allows apps to:
+
+* Send data to a server
+* Receive data from a server
+* Update or delete data
+
+When you open Instagram:
+* The app sends a request to the server.
+* The server sends back your feed data.
+* The app displays it on your screen.
+
+2. Describe how JSON data is parsed and used in Flutter.
+ What is JSON?
+JSON is a lightweight format used to send and receive data from a server.
+It looks like this:
+```json
+{
+  "name": "John",
+  "age": 25
+}
+```dart
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+
+Future<void> fetchData() async {
+  final response = await http.get(Uri.parse("https://example.com/user"));
+
+  if (response.statusCode == 200) {
+    var data = jsonDecode(response.body);
+    print(data["name"]);
+  }
+}
+```
+ Why Parsing is Important?
+* Converts JSON string into Dart Map
+* Makes data easy to use in Flutter
+* Helps display API data on screen
+
+ 3. Explain the purpose of HTTP methods (GET, POST, PUT, DELETE) and when to use each.
+
+HTTP methods define what action we want to perform on the server.
+GET
+ Used to **retrieve data** from the server.
+ It does not change anything on the server.
+POST
+ Used to **send new data** to the server.
+ It creates new records.
+PUT
+ Used to **update existing data** on the server.
+DELETE
+ Used to **remove data** from the server.
+
+
+
