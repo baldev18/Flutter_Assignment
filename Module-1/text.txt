@@ -1,0 +1,31 @@
+1. Benefits of using Flutter over other cross-platform frameworks
+Flutter is a popular framework used to build mobile apps for Android and iOS using a single codebase. It has many benefits compared to other cross-platform frameworks.
+The biggest benefit of Flutter is that developers can write one code and run it on multiple platforms like Android, iOS, Web, and Desktop. This saves time and effort because there is no need to write separate code for each platform.
+Another important benefit is Flutter’s fast performance. Flutter uses its own rendering engine, which helps apps run smoothly and quickly. The performance is very close to native apps.
+Flutter also provides a feature called Hot Reload. This allows developers to see changes instantly without restarting the app. It makes development faster and easier.
+Flutter has many ready-made widgets. These widgets help developers design beautiful and modern user interfaces easily. Developers can also customize widgets according to their needs.
+Flutter is supported by Google and has a strong community. This means developers can find good documentation, tutorials, and support easily.
+
+2. Role of Dart in Flutter and its advantages
+Dart is the programming language used in Flutter. All Flutter apps are written using Dart.
+The main role of Dart is to create the logic and structure of the app. Dart controls how the app looks and how it behaves when users interact with it.
+Dart has many advantages for mobile development. First, Dart is easy to learn, especially for beginners who know languages like Java or C++. Its syntax is simple and clean.
+Second, Dart provides fast performance. Dart code is compiled directly into native machine code, which helps apps run smoothly.
+Third, Dart supports Hot Reload. This allows developers to see changes quickly without restarting the app.
+Another advantage is that Dart is object-oriented. This helps developers organize code properly and makes it easier to manage large applications.
+Dart also has good tools and libraries that help developers build apps faster.
+
+3. Steps to set up a Flutter development environment
+To start Flutter development, we need to set up the environment properly. The steps are as follows:
+First, download Flutter SDK from the official Flutter website. After downloading, extract the Flutter folder to a location like C:\flutter.
+Second, set the Flutter path in environment variables. This allows the system to recognize Flutter commands.
+Third, install Android Studio. Android Studio provides tools needed to build and run Flutter apps.
+Fourth, open Android Studio and install Flutter and Dart plugins from the Plugins section.
+Fifth, install an Android Emulator or connect a real Android device for testing the app.
+Sixth, open Command Prompt and run the command "flutter doctor". This command checks whether Flutter is installed correctly and shows if anything is missing.
+
+4. Basic Flutter app structure
+A Flutter app has a basic structure that helps organize the app properly. The most important file in a Flutter app is main.dart. This file is the starting point of the app.
+The main.dart file contains the main function. The main function is the entry point of the application. It runs the app using the runApp() function.
+The runApp() function starts the app and loads the main widget.
+

@@ -1,0 +1,11 @@
+1. Set up the Flutter development environment and verify installation using flutter doctor
+To start Flutter development, I first installed the Flutter SDK on my system. I downloaded the Flutter SDK from the official Flutter website (https://flutter.dev). After downloading, I extracted the Flutter folder to my local disk (C drive).
+Next, I added the Flutter bin folder path to the system environment variables. This step is important because it allows the system to recognize Flutter commands in Command Prompt.
+After that, I installed Android Studio, which is required for Flutter development. Inside Android Studio, I installed the Flutter plugin and Dart plugin from the Plugins section. These plugins help in writing and running Flutter apps.
+Then, I installed an Android Emulator using Android Studio to test the application. I also had the option to connect a real Android device using USB debugging.
+Finally, I opened Command Prompt and ran the command:
+flutter doctor
+This command checked my Flutter installation and showed whether everything was installed correctly. It also showed if any components were missing. After fixing the missing items, flutter doctor showed that my Flutter environment was ready.
+This confirmed that Flutter was successfully installed on my system.
+
+
