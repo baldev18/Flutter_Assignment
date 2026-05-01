@@ -1,0 +1,42 @@
+1. Explain the difference between implicit and explicit animations in Flutter.
+->In Flutter, animations are used to make apps look smooth and attractive. There are two main types: implicit and explicit animations.
+
+~ Implicit Animations
+Implicit animations are easy animations that Flutter handles automatically.
+
+You only change the value
+Flutter handles the animation effect
+No need to control timing manually
+
+~ Explicit Animations
+Explicit animations give full control to the developer.
+
+You control the animation manually
+You need an AnimationController
+You decide speed, direction, duration
+
+-------------------------------------------------------------------------------------------------
+
+2. Describe the purpose of AnimationController and its usage.
+->AnimationController is the main controller used for explicit animations in Flutter.
+
+~ AnimationController:
+
+How long animation runs
+When animation starts or stops
+Direction (forward or reverse)
+
+~ Used:
+
+It acts like a remote control for animations.
+
+-------------------------------------------------------------------------------------------------
+
+3. Create a loading animation for data fetching in an app.
+->Hero animation is a special animation where a widget moves smoothly from one screen to another.
+
+~ How it works
+
+Same widget is shown on two screens
+Flutter animates its movement automatically
+Uses a tag to match both widgets
